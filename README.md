@@ -41,14 +41,9 @@ orienteering-results-scraper -only-courses '\d - All'  https://www.deeside-orien
 
 # Running
 
-The program is written in Go. To run it, you need to have Go installed on your system.
-You can download Go from https://go.dev/dl/.
-Then you can compile the program by running `go build` in the directory containing the source code.
-This will create an executable file named `orienteering-results-scraper` in the same directory.
-You can then run the program by executing this file from the command line.
-Example usage:
-```
-./orienteering-results-scraper https://www.deeside-orienteering-club.org.uk/results/2024/241117RavenMeols/index.html
-```
+Releases are available on the [GitHub releases page](https://github.com/duncanharris/orienteering-results-scraper/releases).
+Download the latest release for your platform,
+unpack it and run it from the command line
+providing the URL of an event results web page as an argument.
 
-On Windows the program will be named `orienteering-results-scraper.exe`.
+Apple Mac OS users need to download the darwin version.
